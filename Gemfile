@@ -33,13 +33,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 group :development do
+  gem 'capistrano'
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
   gem 'capistrano-passenger'
   gem 'capistrano-bundler'
 end
-
-gem 'passenger'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
